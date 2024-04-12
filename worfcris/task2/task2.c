@@ -9,7 +9,8 @@ int main() {
     printf("n/a");
   else {
     double V = 4.0 / 3 * M_PI * pow(R, 3);
-    printf("%d", (int)round(V * P));
+    double m = round(V * P);
+    printf("%.0lf", m);
   }
   return 0;
 }
