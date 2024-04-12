@@ -7,7 +7,7 @@ int main() {
   double V;
   double m;
   double result;
-  if (scanf("%lf", &rad) == 1) {
+  if (scanf("%lf", &rad) == 1) { // возможно надо проверку на отрицательный радиус
     V = ((double)4 / 3 * M_PI * pow(rad, 3));
     m = P * V;
     result = (int)round(m);
